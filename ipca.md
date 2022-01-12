@@ -1,3 +1,21 @@
-# Introduction to Principal Component Analysis
+---
+jupytext:
+  formats: md:myst
+  text_representation:
+    extension: .md
+    format_name: myst
+kernelspec:
+  display_name: Python 3
+  language: python
+  name: python3
+---
 
-This is my introduction to the principal component analysis.
+# Principal Component Analysis
+
+## Abstract
+
+## Basic principles
+
+## Analysis steps
+
+## Bibliography
