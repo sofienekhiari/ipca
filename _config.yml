@@ -1,0 +1,9 @@
+title: Introduction to Principal Component Analysis
+author: Sofiene Khiari
+
+bibtex_bibfiles:
+  - ipca_references.bib
+sphinx:
+  config:
+    bibtex_default_style: unsrt
+    html_show_copyright: false
