@@ -1,5 +1,9 @@
 title: Introduction to Principal Component Analysis
 author: Sofiene Khiari
+
+repository:
+  url: https://github.com/sofienekhiari/ipca
+
 execute:
   execute_notebooks: force
 
@@ -10,8 +14,9 @@ sphinx:
     bibtex_default_style: unsrt
     html_show_copyright: false
     html_theme_options:
-        use_issues_button: false
+        use_issues_button: true
         use_fullscreen_button: false
-        use_repository_button: false
+        use_repository_button: true
+        use_edit_page_button: true
         use_download_button: false
         show_toc_level: 2
