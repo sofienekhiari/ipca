@@ -37,11 +37,15 @@ In this essay, we will briefly introduce `Machine Learning` and the `Principal C
 
 ### Machine Learning
 
-### Dimensionality in Machine Learning
+Machine learning is all about using and _learning_ from massive amounts of evolving data to come up with `algorithms` that help understand and solve complicated problems humanity is facing. It has many application areas.
 
-4 and more dimensions because we can't plot the data because it would be four dimensions.
+The need for such a technology has arisen from the everlasting progress humanity made and is making that allows solving problems bearing more and more complexity. Simple algorithms aren't good enough anymore to solve such problems and the solutions needed are too complicated for us to find, mainly because of a lack of knowledge, as we often do have enough data to be able to describe such problems with good accuracy. That's why we learn using all that data and the immense computational power computers provide us with, and we're able to distill the process that can explain the data we observe and construct a good and useful `approximation` by detecting certain `patterns` or `regularities` that can help us predict the near future {cite}`Alpaydn:2010tk`.
+
+Sometimes, the data we need to analyse is however very complicated and has a lot of `dimensions` to it. In cases like this, the techniques of Dimensionality Reduction become very handy.
 
 ### Dimensionality Reduction
+
+4 and more dimensions because we can't plot the data because it would be four dimensions.
 
 ### Principal Component Analysis
 
