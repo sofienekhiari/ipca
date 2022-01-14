@@ -30,6 +30,12 @@ It presents the basic principles of the method after introducing the ones of "Ma
 The different steps for the method are explained in a second section using an example that shows the benefit of using such a method to analyse data, no matter the domain of expertise.
 This essay tries to simplify the concept, making it even understandable by readers who may not be familiar with the subject.
 
+:::{dropdown} GitHub Repository
+[![sofienekhiari/ipca - GitHub](https://gh-card.dev/repos/sofienekhiari/ipca.svg?fullname=)](https://github.com/sofienekhiari/ipca)
+
+The original code for this essay is publicly available on the specified repository. Please feel free to open `an issue` or directly submit a modification via a `pull request` if you're interested in contributing. Your input is more than welcome.
+:::
+
 ## Introduction
 
 In this essay, we will briefly introduce `Machine Learning` and the `Principal Component Analysis` in a way that is hopefully comprehensible even to readers that are not familiar with the subject.
