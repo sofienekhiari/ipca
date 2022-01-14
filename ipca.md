@@ -45,7 +45,18 @@ Sometimes, the data we need to analyse is however very complicated and has a lot
 
 ### Dimensionality Reduction
 
-4 and more dimensions because we can't plot the data because it would be four dimensions.
+Dimensionality in Machine Learning refers to the number of `attributes` or `fields` a structured dataset can have {cite}`Kumar:2021tg`. In an academic field, they can for example be a number of different exams that evaluate the knowledge of a group of students in certain domains, as we're going to see in our example analysis. Real-life complicated datasets may contain hundred of dimensions {cite}`Kumar:2021tg` and this high dimensionality may cause some issues:
+
+- It is very challenging to plot, visualise and analyse data that has a very high dimensionality {cite}`Starmer:2018wp`, as humans are unable to visualise data beyond 3D.
+- It may require a lot of computational power to analyse such data, and the result may not show good accuracy {cite}`Kumar:2021tg`.
+
+Dimensions reduction analysis include various techniques that can lower the dimensions of data without losing key information {cite}`Kumar:2021tg`. Ideally, we should not need to perform these analysis, as the classifier should be able to use whichever features are necessary and discard the irrelevant {cite}`Alpaydn:2010tk`, but it may be preferable to perform them separately anyway for the following reasons {cite}`Alpaydn:2010tk, Kumar:2021tg`:
+
+- They reduce the time, memory and computation needed for the training.
+- They decrease the complexity of the resulting algorithm rendering it more clear and robust.
+- They can be plotted and analysed visually.
+
+There are two main methods for reducing dimensionality: `feature selection` and `feature extraction` {cite}`Alpaydn:2010tk`. Principal Component Analysis is the best known and most widely used feature extraction method and as such generally consists in finding a new set of k dimensions that are combinations of the original d dimensions {cite}`Alpaydn:2010tk`. This essay will only be focusing on the Principal Component Analysis even though there are multiple techniques that we could use.
 
 ### Principal Component Analysis
 
