@@ -9,3 +9,9 @@ sphinx:
   config:
     bibtex_default_style: unsrt
     html_show_copyright: false
+    html_theme_options:
+        use_issues_button: false
+        use_fullscreen_button: false
+        use_repository_button: false
+        use_download_button: false
+        show_toc_level: 2
