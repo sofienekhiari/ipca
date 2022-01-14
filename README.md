@@ -1,0 +1,5 @@
+# Principal Component Analysis
+
+This paper is an essay about “Principal Component Analysis” written by Sofiene Khiari as an End-term project for the course “Applied Mathematics and Informatics In Drug Discovery” at the University of Basel. It presents the basic principles of the method after introducing the ones of “Machine Learning” and “Dimensionality Reduction”, being its foundation. The different steps for the method are explained in a second section using an example that shows the benefit of using such a method to analyse data, no matter the domain of expertise. This essay tries to simplify the concept, making it even understandable by readers who may not be familiar with the subject.
+
+Please feel free to open an issue or directly submit a modification via a pull request if you’re interested in contributing. Your input is more than welcome. To submit a modification, you can modify directly on GitHub the file ipca.md, which is the source of the essay.
