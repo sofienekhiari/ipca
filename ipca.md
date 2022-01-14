@@ -25,6 +25,8 @@ from myst_nb import glue
 
 ## Abstract
 
+This paper is an essay about "Principal Component Analysis" written by Sofiene Khiari as an End-term project for the course "Applied Mathematics and Informatics In Drug Discovery" at the University of Basel. It presents the basic principles of the method after introducing the ones of "Machine Learning" and "Dimensionality Reduction", being its foundation. The different steps for the method are explained in a second section using an example that shows the benefit of using such a method to analyse data, no matter the domain of expertise. This essay tries to simplify the concept, making it even understandable by readers who may not be familiar with the subject.
+
 ## Introduction
 
 In this essay, we will briefly introduce `Machine Learning` and the `Principal Component Analysis` in a way that is hopefully comprehensible even to readers that are not familiar with the subject. The essay comprises two main sections:
