@@ -143,7 +143,9 @@ The principal component analysis watch the following steps at a high level {cite
 - We use the `loading scores` (total variation) of the principal components to decide which one(s) is (are) the most important for the clustering of the data. We can use a `Scree plot` to visualise these proportions (not done in this example though). The final selection of the principal component(s) depends on how many principal components we decided we want our model to have.
 - Transform the original matrix of data by using the projected points on each selected principal component. The resulting matrix is used to draw the plot as shown in the {ref}`results' plotting section<plot-the-results>`.
 
+:::{tip}
 The StatQuest PCA step-by-step video {cite}`Starmer:2018wp` provides a very good visual representation of the different steps involved in the Principal Component Analysis.
+:::
 
 (pca-results)=
 The results of the principal component analysis in our case are displayed in {numref}`pca-table-headf`.
