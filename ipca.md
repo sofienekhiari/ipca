@@ -60,11 +60,7 @@ There are two main methods for reducing dimensionality: `feature selection` and 
 
 ### Principal Component Analysis
 
-PCA takes 4 or more dimensions of data and make a 2D PCA plot, similar individuals cluster together.
-
-PCA can also show us which variables are the most valuable for clustering the data.
-
-Our analysis using principal component analysis is based on Singular Value Decomposition (SVD).
+In a nutshell, Principal Component Analysis is an `unsupervised` method of Dimensionality Reduction "interested in finding a `mapping` from the inputs in the original d-dimensional space to a new (k < d)-dimensional space, with minimum loss of information" {cite}`Alpaydn:2010tk` while also eliminating the redundancy in the dataset {cite}`Kumar:2021tg`. It generally uses the `Singular Value Decomposition` {cite}`Starmer:2018wp`. During the analysis, we aim to maximise the `variance` by choosing the `eigenvector` with the largest `eigenvalue` (more details in the {ref}`Analysis Conduct<analysis-conduct>` section). The first component has the biggest variance, meaning that it holds the maximum information about our data's `clustering` potential, followed by the second component and so on. We can use the principal components we get to draw a `PCA Plot`, where we can visualise potential similar individuals cluster {cite}`Starmer:2018wp`. In the {ref}`following section<analysis-conduct>`, we will look into the different steps that we need to follow to conduct a Principal Component Analysis using a specific example.
 
 (analysis-conduct)=
 ## Analysis Conduct
